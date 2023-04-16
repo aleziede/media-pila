@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 ul,
-ol{
+ol {
     list-style: none;
 }
 
@@ -15,25 +17,27 @@ ol{
 /*......... HEADER.......... */
 
 
-.header-search{
+.header-search {
     margin-top: 30px;
 }
 
-.header{
+.header {
     background-color: black;
     text-align: center;
     justify-content: space-between;
     display: flex;
     font-size: 1rem;
     padding: 2em;
-    
+
 }
-.header i{
+
+.header i {
     font-size: 2rem;
     color: white;
-    
+
 }
-.logo img{ 
+
+.logo img {
     height: 100px;
 }
 
@@ -43,221 +47,253 @@ ol{
 /* .....TITTLE..... */
 
 
-.header-titulo{
+.header-titulo {
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
     color: white;
     padding: 30px;
-    margin-top:auto;
+    margin-top: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width:600px){
-    .header-titulo{
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding: 30px;
-    margin-top:auto;
-    font-family: Arial, Helvetica, sans-serif;
+
+@media (max-width:600px) {
+    .header-titulo {
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        margin-top: auto;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    }
+}
+
 /* .......NAV.............. */
 
-.menu{
-    
+.menu {
+
     list-style: none;
     background: black;
     margin: 10px;
     text-align: center;
-    
-}    
-.menu li a{
-    color: white;
-    
-    
+
 }
-.menu li{
+
+.menu li a {
+    color: white;
+
+
+}
+
+.menu li {
     display: inline-block;
     text-align: center;
     font-size: 15px;
     padding: 2px;
-    
+
 }
-.menu li a:hover{
+
+.menu li a:hover {
     background: red;
 }
+
 /* ........................ */
 
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
     display: grid;
     background-color: red;
-    min-height: 100vh; 
+    min-height: 100vh;
     text-align: center;
 }
-.texto-inicio{
+
+.texto-inicio {
     align-content: center;
     text-align: justify;
     padding: 1rem;
     font-size: 20px;
 }
-.texto-reglamento p{
+
+.texto-reglamento p {
     align-content: center;
     text-align: justify;
     padding: 2rem;
 }
-.texto-club p{
+
+.texto-club p {
     align-content: center;
     text-align: justify;
     padding: 2rem;
 }
-@media (max-width:600px){
-    .titulo-liga{
+
+@media (max-width:600px) {
+    .titulo-liga {
         font-size: 12px;
-        padding: 20px; 
+        padding: 20px;
     }
 }
 
-.categorias h2{
+.categorias h2 {
     display: flex;
     justify-content: center;
     color: white;
     padding: 10px;
 
 }
-.categoria-45 h3{
+
+.categoria-45 h3 {
     display: flex;
     margin: 20px;
     color: white;
 }
-.categoria-50 h3{
+
+.categoria-50 h3 {
     display: flex;
     margin: 20px;
     color: white;
     gap: 2px;
-    
+
 }
-.imagenes-categoria-45,.imagenes-categoria-50{
+
+.imagenes-categoria-45,
+.imagenes-categoria-50 {
     gap: 3px;
 }
-.reglamento{
+
+.reglamento {
     display: flex;
     padding: 30px;
 }
-@media (min-width:600px){
-    .imagenes-categoria-50, .imagenes-categoria-45{
+
+@media (min-width:600px) {
+
+    .imagenes-categoria-50,
+    .imagenes-categoria-45 {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, minmax(80px, 1vh));
     }
-    }
-.galeria-50,.galeria-45{
+}
+
+.galeria-50,
+.galeria-45 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.imagenes-categoria-50,.imagenes-categoria-45{
+.imagenes-categoria-50,
+.imagenes-categoria-45 {
     width: 100%;
     padding: 2%;
-    
+
 }
 
-.imagenes-categoria-50 img, .imagenes-categoria-45 img {
-width: 100%;
-height: 100%;
+.imagenes-categoria-50 img,
+.imagenes-categoria-45 img {
+    width: 100%;
+    height: 100%;
 }
 
-@media (min-width:600px){
+@media (min-width:600px) {
     .imagen-portada {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, minmax(600px, 1vh));
     }
-    }
+}
 
-.portada{
+.portada {
     display: flex;
     justify-content: center;
-}    
-.imagen-portada{
+}
+
+.imagen-portada {
     width: 100%;
     padding: 2%;
 }
-.imagen-portada img{
 
-width: 100%;
-height: 100%;
+.imagen-portada img {
+
+    width: 100%;
+    height: 100%;
 }
-@media (min-width:600px){
-    .imagen-finde{
+
+@media (min-width:600px) {
+    .imagen-finde {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, minmax(400px, 1vh));
     }
-    }
-.galeria-finde{
+}
+
+.galeria-finde {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.imagen-finde{
+.imagen-finde {
     width: 100%;
     padding: 2%;
-    
+
 }
 
 .imagen-finde img {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-@media (min-width:300px){
-    .imagen-indumentaria{
+@media (min-width:300px) {
+    .imagen-indumentaria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, minmax(400px, 1vh));
     }
-    }
-.imagen-indumentaria{
+}
+
+.imagen-indumentaria {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
 
-.imagen-2019-2020,.imagen-2020-2023, .imagen-2023 img{
+.imagen-2019-2020,
+.imagen-2020-2023,
+.imagen-2023 img {
     width: 100%;
     padding: 2%;
-    
+
 }
 
-.imagen-2019-2020 img, .imagen-2020-2023 img, .imagen-2023 img {
-width: 100%;
-height: 100%;
+.imagen-2019-2020 img,
+.imagen-2020-2023 img,
+.imagen-2023 img {
+    width: 100%;
+    height: 100%;
 }
+
 /* ............................. */
 
 
 
-.redes-liga a{
+.redes-liga a {
 
-    color: white;  
+    color: white;
     font-size: 12px;
     padding: 10px;
-        
-    }
+
+}
 
 
 
 
-footer{
+footer {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -268,18 +304,18 @@ footer{
 }
 
 
-.footer-redes a i{
-    color: white;  
+.footer-redes a i {
+    color: white;
     font-size: 2rem;
 
-}  
-
-.ir-arriba a{
-    color: white;
-    font-size: 1.5rem;
-    
 }
 
-.ir-arriba{
-    grid-column: 2/3 ;
+.ir-arriba a {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.ir-arriba {
+    grid-column: 2/3;
 }
