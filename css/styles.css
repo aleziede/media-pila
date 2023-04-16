@@ -71,8 +71,8 @@ ol {
 
 /* .......NAV.............. */
 
-.menu {
 
+.menu {
     list-style: none;
     background: black;
     margin: 10px;
@@ -82,8 +82,6 @@ ol {
 
 .menu li a {
     color: white;
-
-
 }
 
 .menu li {
@@ -169,7 +167,7 @@ body {
     padding: 30px;
 }
 
-@media (min-width:600px) {
+@media (min-width:300px) {
 
     .imagenes-categoria-50,
     .imagenes-categoria-45 {
