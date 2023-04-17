@@ -57,17 +57,6 @@ ol {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width:600px) {
-    .header-titulo {
-        font-size: 2rem;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        padding: 30px;
-        margin-top: auto;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
 
 /* .......NAV.............. */
 
@@ -128,12 +117,7 @@ body {
     padding: 2rem;
 }
 
-@media (max-width:600px) {
-    .titulo-liga {
-        font-size: 12px;
-        padding: 20px;
-    }
-}
+
 
 .categorias h2 {
     display: flex;
@@ -167,15 +151,7 @@ body {
     padding: 30px;
 }
 
-@media (min-width:300px) {
 
-    .imagenes-categoria-50,
-    .imagenes-categoria-45 {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(4, minmax(80px, 1vh));
-    }
-}
 
 .galeria-50,
 .galeria-45 {
@@ -197,13 +173,7 @@ body {
     height: 100%;
 }
 
-@media (min-width:600px) {
-    .imagen-portada {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, minmax(600px, 1vh));
-    }
-}
+
 
 .portada {
     display: flex;
@@ -221,13 +191,6 @@ body {
     height: 100%;
 }
 
-@media (min-width:600px) {
-    .imagen-finde {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, minmax(400px, 1vh));
-    }
-}
 
 .galeria-finde {
     display: flex;
@@ -246,13 +209,7 @@ body {
     height: 100%;
 }
 
-@media (min-width:600px) {
-    .imagen-indumentaria {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, minmax(400px, 1vh));
-    }
-}
+
 
 .imagen-indumentaria {
     display: flex;
@@ -316,4 +273,52 @@ footer {
 
 .ir-arriba {
     grid-column: 2/3;
+}
+@media (max-width:600px) {
+    .header-titulo {
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+        margin-top: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media (min-width:600px) {
+    .imagen-indumentaria {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, minmax(400px, 1vh));
+    }
+}
+
+@media (min-width:600px) {
+    .imagen-finde {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, minmax(400px, 1vh));
+    }
+}
+@media (min-width:600px) {
+    .imagen-portada {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, minmax(600px, 1vh));
+    }
+}
+@media (min-width:300px) {
+
+    .imagenes-categoria-50,
+    .imagenes-categoria-45 {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, minmax(80px, 1vh));
+    }
+}
+@media (max-width:600px) {
+    .titulo-liga {
+        font-size: 12px;
+        padding: 20px;
+    }
 }
