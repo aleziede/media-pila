@@ -87,7 +87,7 @@ ol {
 .menu li {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     padding: 2px;
 
 }
@@ -246,7 +246,7 @@ body {
     height: 100%;
 }
 
-@media (min-width:300px) {
+@media (min-width:600px) {
     .imagen-indumentaria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
