@@ -322,3 +322,9 @@ footer {
         padding: 20px;
     }
 }
+@media (min-width:600px) {
+    .menu li {
+        font-size: 1rem;
+        padding: 2em;
+    }
+}
