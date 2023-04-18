@@ -26,7 +26,7 @@ ol {
     text-align: center;
     justify-content: space-between;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 2em;
 
 }
@@ -76,8 +76,8 @@ ol {
 .menu li {
     display: inline-block;
     text-align: center;
-    font-size: 12px;
-    padding: 2px;
+    font-size: 1.8rem;
+    padding: .3em;
 
 }
 
@@ -321,4 +321,13 @@ footer {
         font-size: 12px;
         padding: 20px;
     }
+}
+@media (max-width:829px) {
+.menu li {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.3em;
+
+}
 }
