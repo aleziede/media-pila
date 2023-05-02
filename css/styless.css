@@ -49,13 +49,12 @@ footer {
 }
 
 .header {
-  background-color: black;
-  text-align: center;
+  background-color: black text-align center;
   justify-content: space-between;
   display: flex;
   font-size: 1.5rem;
   padding: 2em;
-
+  box-shadow: 1px 10px 10px white;
 }
 
 .header i {
@@ -103,7 +102,7 @@ main h3 {
   text-shadow: 8px 8px 8px black;
 }
 
-.imagenes-categoria-45,
+/* .imagenes-categoria-45,
 .imagenes-categoria-50 {
   gap: 3px;
 }
@@ -136,7 +135,7 @@ main h3 {
     grid-template-rows: repeat(4, minmax(80px, 1vh));
     border-radius: 20%;
   }
-}
+} */
 .texto-reglamento p {
   align-content: center;
   text-align: justify;
@@ -298,4 +297,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styless.css.map */

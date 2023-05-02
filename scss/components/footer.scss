@@ -1,0 +1,41 @@
+
+
+.redes-liga a {
+
+    color:$color-primario;
+    font-size: 12px;
+    padding: 10px;
+    margin-top:30px;
+
+}
+
+
+
+
+footer {
+    background-color:$color-terciario;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, minmax(80px, 1vh));
+    align-items: center;
+    font-size: 2rem;
+    padding: 1em;
+    
+}
+
+
+.footer-redes a i {
+    color:$color-primario;
+    font-size: 2rem;
+
+}
+
+.ir-arriba a {
+    color:$color-primario;
+    font-size: 1.5rem;
+
+}
+
+.ir-arriba {
+    grid-column: 2/3;
+}

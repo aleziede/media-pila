@@ -1,0 +1,86 @@
+.menu {
+    list-style: none;
+    background: $color-terciario;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 2px 5px 6px $color-primario;
+
+
+}
+
+.menu li a {
+    color: $color-secundario;
+    text-shadow: 3px 3px 3px $color-primario;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: .3em;
+
+}
+
+.menu li a:hover {
+    background: $color-primario;
+}
+
+
+body {
+    font-family:$fuente-principal;
+    text-decoration: none;
+    color: $color-primario;
+    display: grid;
+    background-color: $color-secundario;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.texto-inicio {
+    align-content: center;
+    text-align: justify;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+
+.portada {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-portada {
+    width: 100%;
+    padding: 2%;
+}
+
+.imagen-portada img {
+
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:600px) {
+    .imagen-portada {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, minmax(600px, 1vh));
+    }
+}
+
+@media (max-width:600px) {
+    .titulo-liga {
+        font-size: 12px;
+        padding: 20px;
+    }
+}
+
+@media (max-width:829px) {
+    .menu li {
+        display: inline-block;
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 0.3em;
+
+    }
+}

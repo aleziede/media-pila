@@ -1,0 +1,35 @@
+.texto-reglamento p {
+    align-content: center;
+    text-align: justify;
+    padding: 2rem;
+}
+
+.texto-club p {
+    align-content: center;
+    text-align: justify;
+    padding: 2rem;
+}
+
+
+
+.categorias h2,
+.club h2,
+.juntadirectiva h2,
+.indumentaria h2 {
+    display: flex;
+    justify-content: center;
+    color: $color-primario;
+    padding: 10px;
+    font-size: 3rem;
+    text-shadow: 8px 8px 8px $color-terciario;
+
+}
+
+.cargos li {
+    display: flex;
+}
+
+.cargos li a {
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.galeria-finde {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imagen-finde {
+    width: 100%;
+    padding: 2%;
+
+}
+
+.imagen-finde img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width:600px) {
+    .imagen-finde {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, minmax(400px, 1vh));
+    }
+}

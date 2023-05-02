@@ -1,0 +1,54 @@
+.header-search {
+    margin-top: 30px;
+}
+
+.header {
+    background-color: $color-terciario
+    text-align center;
+    justify-content:space-between;
+    display:flex;
+    font-size:1.5rem;
+    padding:2em;
+    box-shadow:1px 10px 10px $color-primario;
+}
+
+.header i {
+    font-size: 2rem;
+    color:$color-primario;
+
+}
+
+.logo img {
+    height: 100px;
+    box-shadow: 2px 4px 4px $color-primario;
+}
+
+
+
+
+/* .....TITTLE..... */
+
+
+.header-titulo {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: $color-primario;
+    padding: 30px;
+    margin-top: auto;
+    font-family:$fuente-principal;
+    text-shadow: 8px 8px 8px $color-terciario;
+
+}
+
+@media (max-width:600px) {
+    .header-titulo {
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        color:$color-primario;
+        padding: 30px;
+        margin-top: auto;
+        font-family: $fuente-principal;
+    }
+}
