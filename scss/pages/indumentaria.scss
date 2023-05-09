@@ -25,6 +25,7 @@
     .imagen-indumentaria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, minmax(400px, 1vh));
+        grid-template-rows: repeat(2, minmax(900px, 1vh));
+        
     }
 }
