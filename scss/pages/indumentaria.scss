@@ -18,7 +18,7 @@
 .imagen-2023 img {
     width: 100%;
     height: 100%;
-    
+
 }
 
 @media (min-width:600px) {
@@ -26,6 +26,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, minmax(900px, 1vh));
-        
+
     }
 }
